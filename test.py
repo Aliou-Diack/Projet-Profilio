@@ -298,7 +298,7 @@ elif st.session_state.section == "projets":
 
     st.link_button("Visiter le site", "https://projet-data-mining-ku8nh5lnx4rvhqnhgqmzpb.streamlit.app/", icon="🔗")
      # le fichier PDF à télécharger
-    pdf_data = open("C:/Users/HP/Desktop/COURS M2SID/Data Mining approche Informatique/Examen/Projet Data Mining/donnees_ecommerce.xlsx", "rb").read()
+    pdf_data = open("donnees_ecommerce.xlsx", "rb").read()
     # Créer un bouton de téléchargement
     st.download_button(
         label="📥 Télécharger les données",
@@ -485,3 +485,4 @@ elif st.session_state.section == "Contact":
 
     st.markdown("---")
     st.markdown("Merci pour votre visite ! 👋")
+
